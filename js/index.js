@@ -108,6 +108,7 @@ window.onload = ()=>{
     })
     document.getElementById("men").addEventListener("click", ()=>{
         showArticlesSection("Men");
+
     })
 
     // SECCIÓN WOMEN
@@ -323,7 +324,7 @@ function showShoppingCart(miCarrito){
     let emptyShoppingCart = '';
 
     if(miCarrito.products.length == 0){
-        emptyShoppingCart += `<h3>No has añadido ningún producto al carrito</h3>`;
+        emptyShoppingCart += `<h3 id="emptyCart">No has añadido ningún producto al carrito</h3>`;
     }else{
         miCarrito.products.forEach(producto =>{
             let size;

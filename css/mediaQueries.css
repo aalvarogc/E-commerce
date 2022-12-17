@@ -1,0 +1,349 @@
+/* MEDIA QUERIES */
+@media screen and (max-width: 900px){
+    #logo{
+        font-size: 80%;
+    }
+    header nav span{
+        font-size: 1.1em;
+    }
+    header i{
+        font-size: 1.3em;
+    }
+    #carousel--text{
+        font-size: 2em;
+    }
+    .sectionTitle{
+        font-size: .9em;
+    }
+    #social_networks--content span{
+        font-size: 90%;
+        line-height: 1em;
+    }
+    #social_networks--icons i{
+        font-size: 1.5em;
+    }
+    .numColumns{
+        display: none;
+    }
+    .mainHeader h2{font-size: 1.2em;}
+    .orderBy span{font-size: .9em;}
+    .order{padding: .4em;}
+    .divArticles{
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+    .articleDiv--image{
+        padding: 2em;
+    }
+    .articleDiv--info h2{
+        font-size: 1.5em;
+    }
+    .shoppinCartProduct figure{
+        flex-basis: 30%;
+    }
+    .productInfo{
+        flex-basis: 70%;
+    }
+    .productoName h3{
+        font-size: .8em;
+    }
+    .quantity input{
+        padding: 0;
+    }
+    .productPrice h4{
+        font-size: .7em;
+    }
+    #subtotal, #total{
+        font-size: .9em;
+    }
+}
+
+@media screen and (max-width: 680px){
+    #home{
+        grid-template-rows: 90vh repeat(6, 1fr);
+        grid-gap: 2em;
+    }
+    #logo{
+        font-size: 65%;
+    }
+    header nav span{
+        font-size: .9em;
+    }
+    header i{
+        font-size: 1.2em;
+    }
+    #carousel--text{
+        font-size: 1.6em;
+    }
+    .sectionTitle{
+        font-size: .9em;
+    }
+    #social_networks--content span{
+        font-size: 90%;
+        line-height: 1em;
+    }
+    #social_networks--icons i{
+        font-size: 1.5em;
+    }
+    #men{
+        grid-row: 2 / 3;
+        grid-column: 4 / 10;
+    }
+    #women{
+        grid-row: 3 / 4;
+        grid-column: 4 / 10;
+    }
+    #jewelry{
+        grid-row: 4 / 5;
+        grid-column: 4 / 10;
+    }
+    #electronics{
+        grid-row: 5 / 6;
+        grid-column: 4 / 10;
+    }
+    #social_networks{
+        grid-row: 6 / 7;
+    }
+    #social_networks--content h2{
+        font-size: 1.2em;
+    }
+    #social_networks--content span{
+        font-size: 70%;
+    }
+    #newsletter{
+        grid-row: 7 / 8;
+    }
+    .footerSection h3{
+        font-size: 1.2em;
+    }
+    .links{
+        gap: .3em;
+    }
+    .mainHeader h2{font-size: 1em;}
+    .orderBy span{font-size: .8em;}
+    .order{padding: .3em;}
+    .articleDiv--image{
+        padding: 1.5em;
+    }
+    .articleDiv--info{
+        line-height: 1.5em;
+    }
+    .articleDiv--info h2{
+        font-size: 1.2em;
+    }
+    .articleDiv--info h4{
+        font-size: 1em;
+    }
+    .articleDiv--description{
+        font-size: .8em;
+    }
+    .articleDiv--price{
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 460px){
+    #home{
+        grid-template-rows: 90vh repeat(6, 1fr);
+        grid-gap: 2em;
+    }
+    #logo{
+        font-size: 40%;
+    }
+    header nav span{
+        font-size: .55em;
+        margin: 0;
+    }
+    header i{
+        font-size: .7em;
+    }
+    #iconos{
+        gap: 1em;
+    }
+    #carousel--text{
+        font-size: .9em;
+    }
+    .sectionTitle{
+        font-size: .9em;
+    }
+    #social_networks--images img:last-of-type{
+        display: none;
+    }
+    #social_networks--images img{
+        width: 50%;
+    }
+    #social_networks--content{
+        padding: 1em;
+    }
+    #social_networks--content span{
+        font-size: 90%;
+        line-height: 1em;
+    }
+    #social_networks--icons i{
+        font-size: 1.5em;
+    }
+    #men{
+        grid-row: 2 / 3;
+        grid-column: 2 / 12;
+    }
+    #women{
+        grid-row: 3 / 4;
+        grid-column: 2 / 12;
+    }
+    #jewelry{
+        grid-row: 4 / 5;
+        grid-column: 2 / 12;
+    }
+    #electronics{
+        grid-row: 5 / 6;
+        grid-column: 2 / 12;
+    }
+    #social_networks{
+        grid-row: 6 / 7;
+    }
+    #social_networks--content h2{
+        font-size: .8em;
+    }
+    #social_networks--content span{
+        font-size: 50%;
+    }
+    #social_networks--icons i{
+        font-size: .8em;
+    }
+    #social_networks--content{
+        flex-basis: 20%;
+    }
+    #social_networks--images{
+        flex-basis: 80%;
+    }
+    #newsletter{
+        grid-row: 7 / 8;
+    }
+    #newsletter--title{
+        font-size: 1.5em;
+    }
+    footer{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .footerSection h3{
+        font-size: 1em;
+    }
+    .links{
+        gap: .2em;
+    }
+    .links a{
+        font-size: .6em;
+    }
+    #pago .links i{
+        font-size: 1.3em;
+    }
+    .divArticles{
+        grid-template-columns: 1fr !important;
+    }
+    .mainHeader{
+        width: 100%;
+    }
+    .mainHeader h2{font-size: .8em;}
+    .orderBy span{font-size: .6em;}
+    .order{
+        padding: 0;
+        font-size: .6em;
+    }
+    #mainArticleInfo{
+        grid-template-rows: 30vh 1fr;
+    }
+    .articleDiv--image{
+        padding: 0;
+        grid-row: 1 / 2;
+        grid-column: 2 / 6;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .articleDiv--image img{
+        width: 45%;
+        object-fit: cover;
+    }
+    .articleDiv--info{
+        line-height: 1.5em;
+        grid-row: 2 / -1;
+        grid-column: 2 / 6;
+    }
+    .articleDiv--info h2{
+        font-size: 1.2em;
+    }
+    .articleDiv--info h4{
+        font-size: 1em;
+    }
+    .articleDiv--description{
+        font-size: .8em;
+    }
+    .articleDiv--price{
+        font-size: 1em;
+    }
+    .addToCartBtn{
+        width: 85%;
+    }
+    #loginRegister{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+    }
+    #logIn{
+        grid-row: 1 / 2;
+        grid-column: 1 / -1;
+    }
+    #register{
+        grid-row: 2 / -1;
+        grid-column: 1 / -1;
+    }
+    #shoppingTitle{
+        grid-column: 2 / 6;
+    }
+    #shoppingContainer{
+        grid-column: 1 / -1;
+    }
+    #shoppingContainer--price{
+        padding: .8em;
+    }
+    #emptyCart{
+        font-size: .7em;
+        text-align: center;
+    }
+    .shoppinCartProduct figure{
+        flex-basis: 30%;
+    }
+    .productInfo{
+        flex-basis: 70%;
+    }
+    .productoName h3{
+        font-size: .7em;
+    }
+    .quantity{
+        font-size: .7em;
+    }
+    .quantity input{
+        padding: 0;
+    }
+    .productPrice h4{
+        font-size: .6em;
+        width: 40%;
+    }
+    #subtotal, #total{
+        font-size: .7em;
+    }
+    #comprarBtn{
+        width: 80%;
+        padding: .5em;
+        font-size: .5em;
+    }
+    #checkOut{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+    #checkOutForm{
+        padding: 3em;
+        grid-column: 1 / -1;
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+    }
+}
