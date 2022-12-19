@@ -163,25 +163,6 @@ header nav span:hover, h1:hover{
     color: var(--black);
     transition: all .2s ease-in-out;
 }
-#retroceder, #avanzar{
-    cursor: pointer;
-    transition: all .2s ease-in-out;
-    position: absolute;
-    color: var(--white);
-    font-size: 3em;
-    z-index: 100;
-}
-#retroceder{
-    left: 30px;
-    top: 0;
-    bottom: 0;
-}
-#avanzar{
-    right: 30px;
-}
-#retroceder:hover, #avanzar:hover{
-    scale: 1.2;
-}
 
 /* SECTIONS */
 .section{
@@ -250,7 +231,6 @@ header nav span:hover, h1:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 40px;
 }
 #social_networks--images{
     height: 100%;
@@ -522,7 +502,7 @@ footer{
     top: 0;
     content: '★★★★★';
     width: 0;
-    color: orange;
+    color: var(--white);
     overflow: hidden;
     height: 100%;
     display: flex;
