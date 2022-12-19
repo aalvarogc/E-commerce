@@ -502,7 +502,7 @@ footer{
     top: 0;
     content: '★★★★★';
     width: 0;
-    color: var(--white);
+    color: orange;
     overflow: hidden;
     height: 100%;
     display: flex;

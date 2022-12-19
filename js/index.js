@@ -680,10 +680,10 @@ function tratarInfoArticulo(){
         $("#mainArticleInfo").append(articleDiv);
 
         $(".addToCartBtn").click(function(){
+            $(".addToCartBtn").css({"background-color":"lime"});
+            $(".addToCartBtn").html("Añadido al carrito");
             if($("#size").val() == undefined){
                 addArticleToCart(info.id, info.title, info.description, info.price, info.image, parseInt($("#quantity").val(), 10), "", info.category);
-                $(".addToCartBtn").css({"background-color":"lime"});
-                $(".addToCartBtn").html("Añadido al carrito");
             }else{
                 addArticleToCart(info.id, info.title, info.description, info.price, info.image, parseInt($("#quantity").val(), 10), $("#size").val(), info.category);
             }
